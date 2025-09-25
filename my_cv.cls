@@ -1,7 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv}[6/6/2013 custom CV class]
-\LoadClass{article}
+\ProvidesClass{my_cv}[2025/09/25 Custom CV class]
+
 \RequirePackage{titlesec}
+
+\LoadClass{article}
 
 \titleformat{\section}
   {\Large\scshape\raggedright}
@@ -25,7 +27,7 @@
   \centerline{#1}%
 }
 	
-\newcommand\contact[5]{%
+\newcommand\contact[2]{%
     \centerline{%
         \makebox[0pt][c]{%
             #1 {\large\textperiodcentered} #2
