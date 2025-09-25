@@ -1,18 +1,17 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{my_cv}[2025/09/25 Custom CV class]
 
+\LoadClass{article}
 \RequirePackage{titlesec}
 
-\LoadClass{article}
-
 \titleformat{\section}
-  {\Large\scshape\raggedright}
+  {\Large\scshape}
   {}{0em}
   {}
   [\titlerule]
 	  
   \titleformat{\subsection}
-  {\large\scshape\raggedright}
+  {\scshape}
   {}{0em}
   {}
 	  
