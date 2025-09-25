@@ -26,10 +26,10 @@
   \centerline{#1}%
 }
 	
-\newcommand\contact[2]{%
+\newcommand\contact[3]{%
     \centerline{%
         \makebox[0pt][c]{%
-            #1 {\large\textperiodcentered} #2
+            #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
         }%
     }%
 }
