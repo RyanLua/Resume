@@ -5,27 +5,26 @@
 \RequirePackage{titlesec}
 
 \titleformat{\section}
-  {\Large\scshape}
-  {}{0em}
-  {}
-  [\titlerule]
+    {\Large\scshape}{}{0em}{}[\titlerule]
+\titleformat{\subsection}
+    {\scshape}{}{0em}{}
+\titleformat{\subsubsection}
+    {\itshape}{}{0em}{}
 
-  \titleformat{\subsection}
-  {\scshape}
-  {}{0em}
-  {}
-	  
 \newcommand{\datedsection}[2]{%
-  \section[#1]{#1 \hfill #2}%
+    \section[#1]{#1 \hfill #2}%
 }
 \newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}
+    \subsection[#1]{#1 \hfill #2}
 }
-	
+\newcommand{\datedsubsubsection}[2]{%
+    \subsubsection[#1]{#1 \hfill #2}
+}
+
 \newcommand{\name}[1]{%
-  \centerline{#1}%
+    \centerline{#1}%
 }
-	
+
 \newcommand\contact[3]{%
     \centerline{%
         \makebox[0pt][c]{%
