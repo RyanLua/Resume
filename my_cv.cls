@@ -33,11 +33,3 @@
         }%
     }%
 }
-	
-\newcommand{\workitems}[3]{%
-    \begin{itemize}
-    \item #1
-    \item #2
-    \item #3
-    \end{itemize}%
-}
