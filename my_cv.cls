@@ -9,7 +9,7 @@
   {}{0em}
   {}
   [\titlerule]
-	  
+
   \titleformat{\subsection}
   {\scshape}
   {}{0em}
@@ -19,7 +19,7 @@
   \section[#1]{#1 \hfill #2}%
 }
 \newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}%
+  \subsection[#1]{#1 \hfill #2}
 }
 	
 \newcommand{\name}[1]{%
