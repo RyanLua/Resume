@@ -5,8 +5,14 @@
 \RequirePackage{titlesec} % titleformat & titlespacing
 \RequirePackage{enumitem} % setlist
 \RequirePackage[margin=0.5in]{geometry} % Page margin
-\pagenumbering{gobble} % Hide page numbering
+\pagenumbering{gobble} % Page numbering
+\setcounter{secnumdepth}{0} % Section numbering
 \setlist{nosep} % Compact lists
+
+% ATS compatibility
+\RequirePackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
 
 \titleformat{\section}
     {\Large\scshape}{}{0em}{}[\titlerule]
