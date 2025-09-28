@@ -23,7 +23,7 @@
 }
 
 \newcommand{\name}[1]{%
-    \centerline{#1}%
+    \centerline{\Large{#1}}
 }
 
 \newcommand\contact[4]{%
