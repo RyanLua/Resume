@@ -34,7 +34,7 @@
     \centerline{\Large{#1}}
 }
 
-\newcommand\contact[4]{%
+\newcommand{\contact}[4]{%
     \centerline{%
         \makebox[0pt][c]{%
             #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
@@ -43,3 +43,7 @@
     }%
 }
 
+\newcommand{\reference}[3]{%
+    \noindent\textbf{#1} \hfill #2 \\
+    \textit{#3} \par\vspace{0.5em}
+}
