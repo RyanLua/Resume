@@ -14,29 +14,17 @@
 \input{glyphtounicode}
 \pdfgentounicode=1
 
-\titleformat{\section}
-    {\Large\scshape}{}{0em}{}[\titlerule]
-\titleformat{\subsection}
-    {\scshape}{}{0em}{}
-\titleformat{\subsubsection}
-    {\small\itshape}{}{0em}{}
+% Section format
+\titleformat{\section}{\Large\scshape}{}{}{}[\titlerule]
+\titleformat*{\subsection}{\scshape}
+\titleformat*{\subsubsection}{\small\itshape}
 
-\titlespacing*{\subsection}
-    {0pt}{3.25ex plus 1ex minus .2ex}{0ex}
-\titlespacing*{\subsubsection}
-    {0pt}{3.25ex plus 1ex minus .2ex}{0ex}
+% Section spacing (remove spacing after section)
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{0ex}
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{0ex}
 
 \newcommand{\name}[1]{%
     \centerline{\Large{#1}}
-}
-
-\newcommand{\contact}[4]{%
-    \centerline{%
-        \makebox[0pt][c]{%
-            #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-            {\large\textperiodcentered} #4
-        }%
-    }%
 }
 
 \newcommand{\reference}[3]{%
