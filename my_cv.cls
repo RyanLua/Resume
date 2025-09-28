@@ -11,6 +11,9 @@
 \titleformat{\subsubsection}
     {\itshape}{}{0em}{}
 
+\titlespacing*{\subsection}
+    {}{3.25ex plus 1ex minus .2ex}{}
+
 \newcommand{\datedsection}[2]{%
     \section[#1]{#1 \hfill #2}%
 }
