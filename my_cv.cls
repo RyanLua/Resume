@@ -2,11 +2,11 @@
 \ProvidesClass{my_cv}[2025/09/25 Custom CV class]
 
 \LoadClass{article}
-\RequirePackage{titlesec}
-\RequirePackage[margin=0.5in]{geometry}
-\RequirePackage{enumitem}
-\pagenumbering{gobble}
-\setlist{nosep}
+\RequirePackage{titlesec} % titleformat & titlespacing
+\RequirePackage{enumitem} % setlist
+\RequirePackage[margin=0.5in]{geometry} % Page margin
+\pagenumbering{gobble} % Hide page numbering
+\setlist{nosep} % Compact lists
 
 \titleformat{\section}
     {\Large\scshape}{}{0em}{}[\titlerule]
@@ -27,7 +27,6 @@
     \subsection[#1]{#1 \hfill #2}
 }
 \newcommand{\datedsubsubsection}[2]{%
-    % \vspace*{-1.5ex}
     \subsubsection[#1]{#1 \hfill #2}
 }
 
@@ -43,3 +42,4 @@
         }%
     }%
 }
+
