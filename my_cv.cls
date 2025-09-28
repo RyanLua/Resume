@@ -20,16 +20,6 @@
 \titlespacing*{\subsubsection}
     {0pt}{3.25ex plus 1ex minus .2ex}{0ex}
 
-\newcommand{\datedsection}[2]{%
-    \section[#1]{#1 \hfill #2}%
-}
-\newcommand{\datedsubsection}[2]{
-    \subsection[#1]{#1 \hfill #2}
-}
-\newcommand{\datedsubsubsection}[2]{%
-    \subsubsection[#1]{#1 \hfill #2}
-}
-
 \newcommand{\name}[1]{%
     \centerline{\Large{#1}}
 }
