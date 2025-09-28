@@ -9,18 +9,19 @@
 \titleformat{\subsection}
     {\scshape}{}{0em}{}
 \titleformat{\subsubsection}
-    {\itshape}{}{0em}{}
+    {\small\itshape}{}{0em}{}
 
-\titlespacing*{\subsection}
-    {}{3.25ex plus 1ex minus .2ex}{}
+% \titlespacing*{\subsection}
+%     {}{4.05ex plus 1ex minus .2ex}{}
 
 \newcommand{\datedsection}[2]{%
     \section[#1]{#1 \hfill #2}%
 }
-\newcommand{\datedsubsection}[2]{%
+\newcommand{\datedsubsection}[2]{
     \subsection[#1]{#1 \hfill #2}
 }
 \newcommand{\datedsubsubsection}[2]{%
+    \vspace*{-1.5ex}
     \subsubsection[#1]{#1 \hfill #2}
 }
 
