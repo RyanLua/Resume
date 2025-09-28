@@ -15,6 +15,11 @@
 \titleformat{\subsubsection}
     {\small\itshape}{}{0em}{}
 
+\titlespacing*{\subsection}
+    {0pt}{3.25ex plus 1ex minus .2ex}{0ex}
+\titlespacing*{\subsubsection}
+    {0pt}{3.25ex plus 1ex minus .2ex}{0ex}
+
 \newcommand{\datedsection}[2]{%
     \section[#1]{#1 \hfill #2}%
 }
@@ -22,7 +27,7 @@
     \subsection[#1]{#1 \hfill #2}
 }
 \newcommand{\datedsubsubsection}[2]{%
-    \vspace*{-1.5ex}
+    % \vspace*{-1.5ex}
     \subsubsection[#1]{#1 \hfill #2}
 }
 
