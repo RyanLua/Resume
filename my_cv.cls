@@ -23,10 +23,6 @@
 \titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{0ex}
 \titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{0ex}
 
-\newcommand{\name}[1]{%
-    \centerline{\Large{#1}}
-}
-
 \newcommand{\reference}[3]{%
     \noindent\textbf{#1} \hfill #2 \\
     \textit{#3} \par\vspace{0.5em}
