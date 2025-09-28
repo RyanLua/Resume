@@ -3,6 +3,10 @@
 
 \LoadClass{article}
 \RequirePackage{titlesec}
+\RequirePackage[margin=0.5in]{geometry}
+\RequirePackage{enumitem}
+\pagenumbering{gobble}
+\setlist{nosep}
 
 \titleformat{\section}
     {\Large\scshape}{}{0em}{}[\titlerule]
