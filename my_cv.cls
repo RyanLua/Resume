@@ -9,11 +9,6 @@
 \setcounter{secnumdepth}{0} % Section numbering
 \setlist{nosep} % Compact lists
 
-% ATS compatibility
-\RequirePackage[T1]{fontenc}
-\input{glyphtounicode}
-\pdfgentounicode=1
-
 % Section format
 \titleformat{\section}{\Large\scshape}{}{}{}[\titlerule]
 \titleformat*{\subsection}{\scshape}
