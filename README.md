@@ -4,6 +4,8 @@ My academic resume, which I wrote in LaTeX entirely from scratch on [Overleaf](h
 
 Inspired by [Rover Resume](https://github.com/subidit/rover-resume) and "[How to write a LaTeX class file and design your own CV](https://www.overleaf.com/learn/latex/How_to_write_a_LaTeX_class_file_and_design_your_own_CV_(Part_1))".
 
+![Resume](resume.png)
+
 ## LaTeX Engine
 
 This resume is compiled using [LuaLaTeX](https://www.luatex.org/). Make sure to [select LuaLaTeX instead of the default pdfLaTeX as the compiler in Overleaf](https://docs.overleaf.com/getting-started/recompiling-your-project/selecting-a-tex-live-version-and-latex-compiler#changing-the-compiler).
